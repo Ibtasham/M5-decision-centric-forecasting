@@ -4,6 +4,9 @@ title: "Beyond Forecast Accuracy: Decision-Centric Evaluation of Demand Forecast
 authors:
   - family-names: Rahman
     given-names: Md Ibtashamur
+    orcid: "https://orcid.org/0009-0008-8641-9289"
     affiliation: "Department of Industrial and Production Engineering, Shahjalal University of Science and Technology"
 date-released: 2026-10-18
 license: MIT
+doi: 10.5281/zenodo.23450902
+repository-code: "https://github.com/Ibtasham/M5-decision-centric-forecasting"

@@ -47,6 +47,7 @@ python3 -u collect.py 2>&1 | grep -vE "$FILTER"
 python3 -u p1_tuned.py --run main --reps 2000 2>&1 | grep -vE "$FILTER"
 python3 -u regime_oos.py --run main 2>&1 | grep -vE "$FILTER"
 python3 -u make_figures.py 2>&1 | grep -vE "$FILTER"
+python3 -u make_fig_pipeline.py
 python3 -u make_tables.py 2>&1 | grep -vE "$FILTER"
 (cd ../paper && python3 build.py) || echo 'paper build skipped (needs pandoc, python-docx, playwright+chromium)'
 cd ../src

@@ -10,7 +10,7 @@ The study simulates a lost-sales, periodic-review inventory system on 3,999 stra
 |---|---|
 | `src/` | data preparation, forecasters, simulator, experiment runner, analysis, bootstrap, selection, tuned normal-theory and regime checks, figure and table scripts |
 | `results/` | result tables (CSV/JSON) and figures (PNG) used in the paper: `main/`, `seed1/` (independent sample), `sens_*/` (sensitivity), `paper_numbers.json` |
-| `paper/` | manuscript source (`manuscript_src.md`), generated tables, build script, submission DOCX/PDF, cover letter, review report |
+| `paper/` | manuscript source (`manuscript_src.md`), generated tables, build script, anonymised manuscript PDF, review report, diagnosis and defence guide |
 | `reproduce.sh` | regenerates everything |
 
 Large intermediate files (forecast caches, per-series cost arrays) are not stored in the repository; `reproduce.sh` recreates them.
@@ -36,4 +36,4 @@ Seeds are fixed (sampling 0, LightGBM 0, bootstrap 0). `python src/smoke_test.py
 
 ## Citation
 
-See `CITATION.cff`. A Zenodo DOI for the release will be added to the paper's data availability statement. Code is MIT-licensed.
+See `CITATION.cff`. Archived release: https://doi.org/10.5281/zenodo.23450902. Code is MIT-licensed.

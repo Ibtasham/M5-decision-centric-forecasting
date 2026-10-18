@@ -3,6 +3,10 @@ P=pathlib.Path(__file__).parent
 t=(P/'manuscript_src.md').read_text()
 def sub(m): return (P/'tables'/f'{m.group(1)}.md').read_text().strip()
 t=re.sub(r'\{\{(\w+)\}\}',sub,t)
+import json
+_L=json.loads((P/'links.json').read_text())
+for k,v in _L.items():
+    t=t.replace(k, v if v else '[%s to be added]'%k.replace('_',' ').lower())
 (P/'manuscript.md').write_text(t)
 
 # ---- docx

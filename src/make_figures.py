@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt                               # noqa: E402
 plt.rcParams.update({
     "font.size": 9, "axes.titlesize": 10, "axes.labelsize": 9,
     "axes.grid": True, "grid.alpha": .25, "grid.linewidth": .6,
-    "figure.dpi": 200, "savefig.bbox": "tight",
+    "figure.dpi": 300, "savefig.bbox": "tight",
     "axes.spines.top": False, "axes.spines.right": False,
 })
 
@@ -78,7 +78,6 @@ def fig1(run="main"):
                         ha="center", va="bottom", fontsize=8.5, fontweight="bold")
     ax.set_xticks(x); ax.set_xticklabels(["Validation block", "Test block"])
     ax.set_ylabel("Cost reduction vs the accuracy-driven default (%)")
-    ax.set_title("Where the money is: decision rule, not forecaster")
     ax.legend(fontsize=7.5, loc="upper left", framealpha=.95)
     ax.set_ylim(0, max(across) * 1.28)
     fig.savefig(RESULTS / run / "fig1_leverage.png")
@@ -102,7 +101,6 @@ def fig2(run="main"):
         ax.annotate(f"{v:,.0f}", (i, v), ha="center", va="bottom", fontsize=8)
     ax.set_xticks(range(5)); ax.set_xticklabels(labels, fontsize=7.5)
     ax.set_ylabel("Total inventory cost, TEST block (USD)")
-    ax.set_title("Decomposing the accuracy-to-decision gap")
     ax.set_ylim(0, max(vals) * 1.16)
 
     names = ["B vs A", "C vs A", "D vs A", "E vs A"]
@@ -116,7 +114,6 @@ def fig2(run="main"):
     ax2.axvline(0, color="#c0392b", lw=1.2, ls="--")
     ax2.set_yticks(y); ax2.set_yticklabels(names, fontsize=8)
     ax2.set_xlabel("Cost saving vs the accuracy-driven default (%)\nwith 95% paired bootstrap CI")
-    ax2.set_title("Negative = the step is dearer than the default", fontsize=9)
     fig.savefig(RESULTS / run / "fig2_decomposition.png")
     plt.close(fig)
 
@@ -142,8 +139,6 @@ def fig3(run="main"):
     ax.set_xlabel("Fill rate (units satisfied / units demanded)")
     ax.set_ylabel("Total inventory cost, TEST block (USD)")
     ax.set_yscale("log")
-    ax.set_title("Cost-service frontier: the accuracy-driven default is dominated\n"
-                 "on both cost and service", fontsize=9.5)
     ax.legend(fontsize=7, loc="upper left", framealpha=.95)
     fig.savefig(RESULTS / run / "fig3_frontier.png")
     plt.close(fig)
@@ -167,8 +162,6 @@ def fig4(run="main"):
     ax.axhline(0, color="#c0392b", lw=1.1, ls="--")
     ax.set_xticks(x); ax.set_xticklabels(t.lbl, rotation=32, ha="right", fontsize=7.5)
     ax.set_ylabel("Cost vs the best fixed pairing (%)\nlower is better")
-    ax.set_title("Every learned per-SKU selector loses to one portfolio-level choice\n"
-                 "selection uses validation data only", fontsize=9.5)
     ax.legend(fontsize=7.5)
     fig.savefig(RESULTS / run / "fig4_selection.png")
     plt.close(fig)
@@ -191,7 +184,6 @@ def fig5():
         ax.annotate(f"{v:.0f}%", (i, v), ha="center", va="bottom", fontsize=7)
     ax.set_xticks(x); ax.set_xticklabels(s.lbl, rotation=32, ha="right", fontsize=7.5)
     ax.set_ylabel("Percent")
-    ax.set_title("Robustness across ten decision environments (TEST block)", fontsize=9.5)
     ax.legend(fontsize=7.2, loc="upper left")
     fig.savefig(RESULTS / "fig5_sensitivity.png")
     plt.close(fig)
@@ -216,8 +208,6 @@ def fig6(run="main"):
                     xytext=(4, 3), textcoords="offset points", color="#555")
     ax.set_xlabel("Forecast error (RMSSE, lower is better) — TEST block")
     ax.set_ylabel("Total inventory cost (USD)")
-    ax.set_title("Accuracy orders the methods differently from cost,\n"
-                 "and the vertical spread within a policy family is small", fontsize=9.5)
     ax.legend(fontsize=6.8, loc="center left", framealpha=.95)
     fig.savefig(RESULTS / run / "fig6_accuracy_scatter.png")
     plt.close(fig)
