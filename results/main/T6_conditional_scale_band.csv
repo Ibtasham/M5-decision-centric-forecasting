@@ -1,0 +1,4 @@
+scale_band,best_method,best_policy,best_total,best_fill,p1_best_method,p1_best_total,excess_pct
+small,lgbm_q,P3_sS_weekly@0.99,17110.152,0.9977985,lgbm_mean,39855.223,132.93318
+large,lgbm_q,P3_sS_daily@0.99,43609.402,0.99825144,tsb,99657.47,128.5229
+mid,lgbm_q,P3_sS_daily@0.99,27094.816,0.9989782,tsb,61821.117,128.16585

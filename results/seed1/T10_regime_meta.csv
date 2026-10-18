@@ -1,0 +1,8 @@
+,0
+econ,margin
+test_cost_fixed,36818.64453125
+test_cost_regime_meta,45606.390625
+test_cost_oracle,28791.44921875
+regime_meta_vs_fixed_pct,-23.867652396305242
+capture_rate,-1.0947467641737414
+train_top1,0.991747936984246

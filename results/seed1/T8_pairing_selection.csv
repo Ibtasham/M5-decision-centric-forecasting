@@ -1,0 +1,13 @@
+,0
+econ,margin
+n_series,3999
+n_pairings,59
+val_best_fixed,lgbm_q|P3_sS_daily@0.99
+test_best_fixed_cost,36818.64453125
+test_per_series_cost,50569.0234375
+per_series_gain_pct,-37.34623879099976
+share_series_disagree,0.8942235558889723
+test_oracle_fixed_cost,36818.64453125
+test_oracle_perseries_cost,28791.44921875
+oracle_headroom_pct,21.8019848766754
+capture_rate,-1.7129742545117623

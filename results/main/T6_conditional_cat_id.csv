@@ -1,0 +1,4 @@
+cat_id,best_method,best_policy,best_total,best_fill,p1_best_method,p1_best_total,excess_pct
+FOODS,lgbm_q,P3_sS_daily@0.99,45352.05,0.99833614,tsb,108026.98,138.19644
+HOUSEHOLD,lgbm_q,P3_sS_daily@0.99,29795.441,0.9994445,tsb,69351.12,132.75748
+HOBBIES,lgbm_q,P3_sS_daily@0.99,13105.753,0.999363,tsb,25242.125,92.60339

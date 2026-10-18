@@ -1,0 +1,4 @@
+policy,econ,metric,n,spearman,spearman_p,kendall,kendall_p,accuracy_best,cost_best,agree
+P1_base_stock_normal,margin,rmsse,9,0.4666666666666666,0.2053863511058121,0.2777777777777778,0.35848765432098767,lgbm_mean,tsb,False
+P1_base_stock_normal,margin,wape,9,0.7,0.03576957497026173,0.5555555555555556,0.04461529982363316,lgbm_mean,tsb,False
+P1_base_stock_normal,margin,mae,9,0.7,0.03576957497026173,0.5555555555555556,0.04461529982363316,lgbm_mean,tsb,False

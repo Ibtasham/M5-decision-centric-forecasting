@@ -1,0 +1,13 @@
+,0
+econ,cr90
+n_series,3999
+n_pairings,59
+val_best_fixed,lgbm_q|P3_sS_weekly@0.95
+test_best_fixed_cost,29472.865234375
+test_per_series_cost,29563.4921875
+per_series_gain_pct,-0.3074928494542815
+share_series_disagree,0.776194048512128
+test_oracle_fixed_cost,29472.865234375
+test_oracle_perseries_cost,25732.3515625
+oracle_headroom_pct,12.691381181061208
+capture_rate,-0.02422847797788468

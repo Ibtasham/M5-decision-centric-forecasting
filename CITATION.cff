@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Beyond Forecast Accuracy: Decision-Centric Evaluation of Demand Forecasting for Inventory Replenishment under Intermittent and Shifting Retail Demand (code and results)"
+authors:
+  - family-names: Rahman
+    given-names: Md Ibtashamur
+    affiliation: "Department of Industrial and Production Engineering, Shahjalal University of Science and Technology"
+date-released: 2026-10-18
+license: MIT

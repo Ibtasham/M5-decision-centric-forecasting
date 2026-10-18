@@ -1,0 +1,13 @@
+,0
+econ,cr90
+reference_accuracy_driven,107768.77343739037
+reference_combo,lgbm_mean|P1_base_stock_normal
+within_rule_best,106221.52889073108
+within_rule_worst,114460.62491908437
+within_rule_spread_pct,7.756521784608061
+within_rule_gain_vs_reference_pct,1.4357076705138359
+across_rule_best,72844.65386327714
+across_rule_combo,lgbm_q|P3_sS_weekly@0.95
+across_rule_gain_vs_reference_pct,32.406529702597794
+ratio_across_to_within,22.57181623261759
+leverage_statement,"Choosing the best decision rule instead of the best point forecast is worth 32.4% of cost, versus 1.4% from choosing the best forecaster within the standard rule."

@@ -1,0 +1,4 @@
+sbc_class,best_method,best_policy,best_total,best_fill,p1_best_method,p1_best_total,excess_pct
+lumpy,lgbm_q,P3_sS_weekly@0.95,59506.87,0.95784754,tsb,90732.02,52.473186
+erratic,lgbm_mean,P4_ddmrp,10058.726,0.9325201,tsb,12724.761,26.504696
+smooth,comb,P4_ddmrp,2274.5864,0.9725985,tsb,2764.7454,21.549368

@@ -1,0 +1,9 @@
+{
+  "econ": "margin",
+  "S1_test": 35208.75,
+  "oracle_test": 28274.7578125,
+  "oracle_headroom_pct": 19.69394592963397,
+  "best_learned_test": 35208.75,
+  "best_learned_vs_S1_pct": 0.0,
+  "capture_rate": 0.0
+}

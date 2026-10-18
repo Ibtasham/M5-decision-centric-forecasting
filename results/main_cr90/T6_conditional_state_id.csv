@@ -1,0 +1,4 @@
+state_id,best_method,best_policy,best_total,best_fill,p1_best_method,p1_best_total,excess_pct
+TX,lgbm_q,P3_sS_weekly@0.95,20267.867,0.95845234,tsb,29748.799,46.77814
+WI,lgbm_q,P3_sS_weekly@0.95,22055.357,0.95493627,tsb,32238.566,46.171143
+CA,lgbm_q,P3_sS_weekly@0.95,30521.428,0.9559296,tsb,44234.16,44.928215

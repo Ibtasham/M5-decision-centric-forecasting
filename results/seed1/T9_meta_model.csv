@@ -1,0 +1,12 @@
+,0
+econ,margin
+n_classes,59
+train_top1,0.991747936984246
+val_best_fixed,lgbm_q|P3_sS_daily@0.99
+test_cost_fixed,36818.64453125
+test_cost_meta_model,50381.46875
+test_cost_val_perseries,50569.0234375
+test_cost_oracle,28791.44921875
+meta_vs_fixed_pct,-36.83683739969973
+meta_vs_fixed_abs,-13562.82421875
+capture_rate,-1.6896093455742733

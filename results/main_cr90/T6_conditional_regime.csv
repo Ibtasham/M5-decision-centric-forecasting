@@ -1,0 +1,6 @@
+regime_p0,method,policy,total,fill,n
+level_down,lgbm_q,P3_sS_weekly@0.95,16969.035,0.9422493,1055
+level_up,lgbm_q,P3_sS_weekly@0.95,14120.144,0.96414876,788
+new,lgbm_q,P3_sS_weekly@0.95,3175.0247,0.9103155,187
+stable,lgbm_q,P3_sS_weekly@0.95,38284.67,0.96507144,1947
+vol_up,lgbm_q,P3_sS_weekly@0.95,295.77722,0.9711973,22

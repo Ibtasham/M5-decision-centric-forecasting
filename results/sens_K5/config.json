@@ -1,0 +1,31 @@
+{
+  "n_series": 4000,
+  "seed": 0,
+  "blocks": "val,test",
+  "out": "sens_K5",
+  "lead": 2,
+  "K": 5.0,
+  "s_frac": 0.5,
+  "econ": "margin",
+  "ddmrp_buffer": 0.5,
+  "review": 7,
+  "cost_ratio": 0.6,
+  "hold_rate": 0.25,
+  "penalty_mult": 1.0,
+  "reuse_forecasts": "main",
+  "cache_forecasts": false,
+  "max_train_rows": 260000,
+  "lgbm_estimators": 350,
+  "hw_tune": 250,
+  "hw_window": 336,
+  "p1_sweep": false,
+  "pi_mode": "blend",
+  "pi_lam": 0.5,
+  "econ_list": [
+    {
+      "name": "margin",
+      "mode": "margin",
+      "mult": null
+    }
+  ]
+}

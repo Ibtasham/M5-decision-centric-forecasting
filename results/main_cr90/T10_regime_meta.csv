@@ -1,0 +1,8 @@
+,0
+econ,cr90
+test_cost_fixed,29472.865234375
+test_cost_regime_meta,29607.35546875
+test_cost_oracle,25732.3515625
+regime_meta_vs_fixed_pct,-0.4563188319340612
+capture_rate,-0.03595501745822636
+train_top1,0.9889972493123281

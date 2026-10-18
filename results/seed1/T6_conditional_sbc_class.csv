@@ -1,0 +1,4 @@
+sbc_class,best_method,best_policy,best_total,best_fill,p1_best_method,p1_best_total,excess_pct
+lumpy,lgbm_q,P3_sS_daily@0.99,73869.97,0.9986859,tsb,180752.31,144.68985
+smooth,lgbm_q,P3_sS_daily@0.99,4032.1443,0.9991518,croston,6864.124,70.23508
+erratic,lgbm_q,P3_sS_daily@0.99,14655.832,0.99727327,croston,24295.613,65.77437

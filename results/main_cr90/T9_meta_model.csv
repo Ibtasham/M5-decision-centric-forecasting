@@ -1,0 +1,12 @@
+,0
+econ,cr90
+n_classes,59
+train_top1,0.9887471867966992
+val_best_fixed,lgbm_q|P3_sS_weekly@0.95
+test_cost_fixed,29472.865234375
+test_cost_meta_model,29548.625
+test_cost_val_perseries,29563.4921875
+test_cost_oracle,25732.3515625
+meta_vs_fixed_pct,-0.2570492044887422
+meta_vs_fixed_abs,-75.759765625
+capture_rate,-0.02025384005267492

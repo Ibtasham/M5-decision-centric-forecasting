@@ -1,0 +1,6 @@
+regime,val_cells,test_cells,val_best,blind,val_blind_penalty_pct,test_cost_regime_choice,test_cost_blind,test_gain_of_regime_choice_pct,ci_lo,ci_hi
+stable,27599,12075,lgbm_q|P3_sS_daily@0.99,lgbm_q|P3_sS_daily@0.99,0.0,21539.59375,21539.59375,0.0,0.0,0.0
+level_up,11551,4034,lgbm_q|P3_sS_daily@0.99,lgbm_q|P3_sS_daily@0.99,0.0,7737.83642578125,7737.83642578125,0.0,0.0,0.0
+level_down,11388,3676,lgbm_q|P3_sS_daily@0.99,lgbm_q|P3_sS_daily@0.99,0.0,5482.1650390625,5482.1650390625,0.0,0.0,0.0
+vol_up,366,145,lgbm_q|P3_sS_daily@0.99,lgbm_q|P3_sS_daily@0.99,0.0,315.7740478515625,315.7740478515625,0.0,0.0,0.0
+new,1083,65,lgbm_q|P3_sS_daily@0.99,lgbm_q|P3_sS_daily@0.99,0.0,133.38021850585938,133.38021850585938,0.0,0.0,0.0
